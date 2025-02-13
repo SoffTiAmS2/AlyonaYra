@@ -1,0 +1,160 @@
+{
+    // "cmake.sourceDirectory": "${workspaceFolder}",
+    // "cmake.buildDirectory": "${workspaceFolder}/build",
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#608b4e" // Цвет комментариев
+                }
+            },
+            {
+                "scope": "keyword",
+                "settings": {
+                    "foreground": "#569cd6" // Цвет ключевых слов
+                }
+            },
+            {
+                "scope": "string",
+                "settings": {
+                    "foreground": "#d69d85" // Цвет строк
+                }
+            },
+            {
+                "scope": "variable",
+                "settings": {
+                    "foreground": "#9cdcfe" // Цвет переменных
+                }
+            },
+            {
+                "scope": "function",
+                "settings": {
+                    "foreground": "#dcdcaa" // Цвет функций
+                }
+            },
+            {
+                "scope": "number",
+                "settings": {
+                    "foreground": "#b5cea8" // Цвет чисел
+                }
+            },
+            {
+                "scope": [
+                    "keyword.operator.assignment",
+                    "keyword.operator.arithmetic",
+                    "keyword.operator.logical",
+                    "keyword.operator.bitwise.shift",
+                    "keyword.operator.bitwise",
+                    "keyword.operator.comparison",
+                    "keyword.operator.ternary"
+                ],
+                "settings": {
+                    "foreground": "#FF5733" // Цвет операторов
+                }
+            },
+            // {
+            //     "scope": [
+            //         // "keyword.operator.logical",
+            //         // "keyword.operator.comparison",
+            //         // "keyword.operator.ternary"
+            //     ],
+            //     "settings": {
+            //         "foreground": "#AF2141" // Цвет операторов условий
+            //     }
+            // },
+            {
+                "scope": [
+                    "entity.name.function.operator",
+                    "keyword.operator.function"
+                ],
+                "settings": {
+                    "foreground": "#33A1FF" // Цвет перегруженных операторов
+                }
+            }
+        ]
+    },
+    "files.associations": {
+        "*.cpp ": "cpp",
+        "ostream": "cpp",
+        "__bit_reference": "cpp",
+        "__config": "cpp",
+        "__hash_table": "cpp",
+        "__locale": "cpp",
+        "__node_handle": "cpp",
+        "__split_buffer": "cpp",
+        "__threading_support": "cpp",
+        "__tree": "cpp",
+        "__verbose_abort": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "cctype": "cpp",
+        "charconv": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp",
+        "condition_variable": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "deque": "cpp",
+        "execution": "cpp",
+        "initializer_list": "cpp",
+        "iomanip": "cpp",
+        "ios": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "locale": "cpp",
+        "mutex": "cpp",
+        "new": "cpp",
+        "numbers": "cpp",
+        "optional": "cpp",
+        "queue": "cpp",
+        "ratio": "cpp",
+        "semaphore": "cpp",
+        "set": "cpp",
+        "span": "cpp",
+        "sstream": "cpp",
+        "stack": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "tuple": "cpp",
+        "typeinfo": "cpp",
+        "unordered_map": "cpp",
+        "variant": "cpp",
+        "vector": "cpp",
+        "algorithm": "cpp",
+        "atomic": "cpp",
+        "bit": "cpp",
+        "*.tcc": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "exception": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "memory_resource": "cpp",
+        "random": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "format": "cpp",
+        "map": "cpp",
+        "fstream": "cpp",
+        "thread": "cpp",
+        "__memory": "cpp",
+        "print": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+    }
+    
